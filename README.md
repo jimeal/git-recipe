@@ -6,6 +6,8 @@
 [03-Branch, Merge, PullRequest](https://github.com/jimeal/git-recipe/blob/main/03-branch.md)   
 [04-Amend, Restore, Reset, Revert, HEAD연산자](https://github.com/jimeal/git-recipe/blob/main/04-restore.md)   
 [05-Stash, CherryPick](https://github.com/jimeal/git-recipe/blob/main/05-stash.md)   
+[06-빈커밋](https://github.com/jimeal/git-recipe/blob/main/06-other.md)   
+[잘못커밋한 대용량 파일](https://blog.naver.com/jmb2981/223221160542)   
    
 
 - Amend - 커밋메시지 수정   

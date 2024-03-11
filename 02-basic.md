@@ -37,3 +37,12 @@ git push -u origin main
 ```bash
 git pull
 ```
+### 05. Log, Status
+```bash
+git log
+```
+![alt text](assets/image-log2.png)   
+```bash
+git log --oneline  # 전체 커밋메시지를 한줄로
+git log --oneline -n1 # 한개의 커밋메시지를 한줄로 
+```
