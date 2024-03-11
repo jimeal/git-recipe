@@ -8,6 +8,7 @@
 [05-Stash, CherryPick](https://github.com/jimeal/git-recipe/blob/main/05-stash.md)   
 [06-빈커밋, 원격에 내용있을경우](https://github.com/jimeal/git-recipe/blob/main/06-other.md)   
 [잘못커밋한 대용량 파일](https://blog.naver.com/jmb2981/223221160542)   
+[gh-pages사용하기](https://blog.naver.com/jmb2981/223193478883)   
    
 
 - Amend - 커밋메시지 수정   
