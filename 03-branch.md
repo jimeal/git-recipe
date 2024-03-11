@@ -7,4 +7,25 @@ git branch 브랜치명
 ```bash
 git switch 브랜치명
 ```
+새로운 내용 추가후 add, commit까지 완료
+
 ## Merge
+merge를 하기 위해 병합할 브랜치로 이동
+```bash
+git switch main
+```
+```bash
+git merge 새로만든 브랜치명
+```
+log 확인 후 push
+
+
+## Pull Request
+새로운 브랜치에 새로운 내용을 추가 한후 push까지 완료해준다
+
+원격 저장소에 브랜치가 없어 push가 안될경우
+```bash
+# fatal: The current branch <branch> has no upstream branch.
+# To push the current branch and set the remote as upstream, use
+git push --set-upstream origin 브랜치명
+```
