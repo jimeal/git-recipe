@@ -36,6 +36,9 @@ git remote rm origin  # 저장소 삭제
 git push -u origin main  
 ```
 
-### 04. Pull
+### 04. pull
+```bash
+git pull
+```
 
 
