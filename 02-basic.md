@@ -18,6 +18,7 @@ git add . # 모든 파일 staiging
 ### 02. Commit
 ```bash
 git commit -m "메시지내용"
+git commit -am "메시지내용"
 ```
 ![alt text](assets/image-log.png)
 
