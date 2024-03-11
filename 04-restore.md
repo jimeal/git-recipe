@@ -26,3 +26,9 @@ git reset --hard <커밋아이디>  # 변경사항까지 되돌린다
 git revert 커밋아이디
 ```
 
+## HEAD 연산자
+```bash
+HEAD # 최근커밋
+HEAD^ # 최근커밋의 이전 커밋
+HEAD~n # 최근커밋의 n번째 이전 커밋
+
