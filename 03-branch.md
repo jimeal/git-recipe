@@ -29,3 +29,8 @@ log 확인 후 push
 # To push the current branch and set the remote as upstream, use
 git push --set-upstream origin 브랜치명
 ```
+원격저장소로 이동해보면   
+![alt text](assets/image-pull.png)
+
+create pull request버튼 클릭   
+![alt text](assets/image-reppull.png)
