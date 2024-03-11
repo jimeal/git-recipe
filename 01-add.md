@@ -22,6 +22,18 @@ git add . # 모든 파일 staiging
 ```bash
 git commit -m "메시지내용"
 ```
+![alt text](assets/image-log.png)
 
+### 03. Push
+원격저장소 주소 등록 및 확인 삭제
+```bash
+git remote add origin 저장소주소.git  # 저장소 등록
+git remote -v  # 저장소 확인
+git remote rm origin  # 저장소 삭제
+```
+원격저장소로 푸시
+```bash
+git push -u origin main  
+```
 
 
