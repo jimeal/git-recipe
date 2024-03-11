@@ -20,3 +20,9 @@ git reset --soft <커밋아이디>  # 변경사항은 남기고 staged 상태로
 git reset --hard <커밋아이디>  # 변경사항까지 되돌린다
 ```
 
+## Revert
+변경사항 남기고 되돌아가기
+```bash
+git revert 커밋아이디
+```
+
