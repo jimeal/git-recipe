@@ -28,6 +28,9 @@ git commit -am "메시지내용"
 git remote add origin 저장소주소.git  # 저장소 등록
 git remote -v  # 저장소 확인
 git remote rm origin  # 저장소 삭제
+git remote remove origin # 저장소 삭제
+git remote rename <기존 이름> <변경할 이름>  # 저장소 이름 변경
+git remote  # 저장소이름 확인
 ```
 원격저장소로 푸시
 ```bash
