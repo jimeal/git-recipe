@@ -32,12 +32,32 @@ git switch -c sub
 merge를 하기 위해 병합할 브랜치로 이동
 ```bash
 git switch main
-```
-```bash
 git merge <새로만든 브랜치명>
+git merge sub
 ```
-log 확인 후 push
+<*충돌시>
+merge 실행 후 당장 충돌이 어려울 경우 merge 중단
+```bash
+git merge --abort
+```
 
+## Rebase
+merge와는 반대로 진행해야 한다
+```bash
+git switch <새로만든 브랜치명>
+git switch sub
+git rebase main
+```
+
+<*충돌시>
+rebase 실행후 중단할때
+```bash
+git rebase --abort
+```
+해결가능시 (충돌이 해결 가능할때까지 반복)
+```bash
+git rebase --continue
+```
 
 ## Pull Request
 새로운 브랜치에 새로운 내용을 추가 한후 push까지 완료해준다
