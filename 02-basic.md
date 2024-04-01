@@ -18,11 +18,17 @@ git add . # 모든 파일 staiging
 ### 02. Commit
 ```bash
 git commit -m "메시지내용"
-git commit -am "메시지내용"
 ```
 ![alt text](assets/image-log.png)
 
-### 03. Push
+### 03. Add와 Commit 한번에 
+```bash
+git commit -am "메시지내용" 
+```
+새로 추가된(untracked) 파일이 없을 때 한정
+
+
+### 04. Push
 원격저장소 주소 등록 및 확인 삭제
 ```bash
 git remote add origin 저장소주소.git  # 저장소 등록
@@ -35,13 +41,26 @@ git remote  # 저장소이름 확인
 원격저장소로 푸시
 ```bash
 git push -u origin main  
+git push --set-upstream origin main 
+```
+-u 또는 --set-upstream : 현재 브랜치와 명시된 원격 브랜치 기본 연결   
+
+강제푸시
+```bash
+git push -f
+git push --force
 ```
 
-### 04. pull
+### 05. pull
 ```bash
 git pull
 ```
-### 05. Log, Status
+푸시할것이 있을 시 pull하는 두가지 방법
+```bash
+git pull --no-rebase  # merge방식
+git pull --rebase  # rebase 방식
+```
+### 06. Log, Status
 ```bash
 git log
 ```
