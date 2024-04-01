@@ -25,6 +25,10 @@ git reset --hard <커밋아이디>  # 변경사항까지 되돌린다
 ```bash
 git revert 커밋아이디
 ```
+커밋하지 않고 Revert하기
+```bash
+git revert --no-commit (되돌릴  커밋 해시)
+```
 
 ## HEAD 연산자
 ```bash
