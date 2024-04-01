@@ -1,10 +1,38 @@
 ## Git Setup하기
 [설치하러가기](https://git-scm.com/)
 
+[유용한 설정들]
+
+줄바꿈 호환문제 해결 (윈도우- true / 맥 - input)
 ```bash
 git config --global core.autocrlf true 
 ```
-협업시 윈도우와 맥에서 엔터 방식 차이로 인한 오류를 방지
+협업시 윈도우와 맥에서 엔터 방식 차이로 인한 오류를 방지  
+
+---
+<br>
+
+pull 기본 전략 merge 또는 rebase로 설정   
+```bash
+git config pull.rebase true
+git config pull.rebase false
+```
+
+---
+<br>
+
+기본 브랜치명 변경   
+```bash
+git config --global init.defaultBranch main
+```
+
+--- 
+<br>
+
+push시 로컬과 동일한 브랜치명으로
+```bash
+git config --global push.default current
+```
 
 ## Git Config
 초기설정
