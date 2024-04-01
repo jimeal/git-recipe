@@ -27,8 +27,14 @@ git commit -am "메시지내용"
 ```
 새로 추가된(untracked) 파일이 없을 때 한정
 
+### 04. Amend (커밋메시지 수정)
+```bash
+git commit --amend
+```
+에디터를 열어 커밋메시지를 수정할수 있다.
 
-### 04. Push
+
+### 05. Push
 원격저장소 주소 등록 및 확인 삭제
 ```bash
 git remote add origin 저장소주소.git  # 저장소 등록
@@ -51,7 +57,7 @@ git push -f
 git push --force
 ```
 
-### 05. pull
+### 06. pull
 ```bash
 git pull
 ```
@@ -60,7 +66,7 @@ git pull
 git pull --no-rebase  # merge방식
 git pull --rebase  # rebase 방식
 ```
-### 06. Log, Status
+### 07. Log, Status
 ```bash
 git log
 ```
