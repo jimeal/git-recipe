@@ -68,4 +68,5 @@ git log
 ```bash
 git log --oneline  # 전체 커밋메시지를 한줄로
 git log --oneline -n1 # 한개의 커밋메시지를 한줄로 
+git log --all --decorate --oneline --graph 
 ```
