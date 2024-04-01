@@ -24,7 +24,7 @@ git checkout sub
 브랜치 생성과 이동
 ```bash
 git checkout -b sub
-git switch -b sub
+git switch -c sub
 ```
 새로운 내용 추가후 add, commit까지 완료
 
@@ -52,4 +52,28 @@ git push --set-upstream origin <브랜치명>
 ![alt text](assets/image-pull.png)
 
 create pull request버튼 클릭   
-![alt text](assets/image-reppull.png)
+![alt text](assets/image-reppull.png)   
+
+
+
+### 원격 브랜치
+![원격에 브랜치생성](assets/branch-create.png)   
+
+원격 변경사항 확인
+```bash
+git fetch
+git branch --all  # 원격 로컬 모든 브랜치 확인
+git branch -a
+```
+![alt text](assets/change.png)   
+
+로컬에 같은 이름의 브랜치 생성하여 연결하고 이동
+```bash
+git switch -t origin/브랜치명
+git switch -t origin/new-branch
+```
+원격 브랜치 삭제
+```bash
+git push (원격 이름) --delete (원격의 브랜치명)
+git push origin --delete new-branch
+```
